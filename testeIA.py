@@ -4,9 +4,9 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-password = "your password"
+key = "your api key"
 
-api_url = f"https://www.alphavantage.co/query?function=HISTORICAL_OPTIONS&symbol=AAPL&outputsize=compact&apikey={password}"
+api_url = f"https://www.alphavantage.co/query?function=HISTORICAL_OPTIONS&symbol=AAPL&outputsize=compact&apikey={key}"
 
 
 def pegar_data(api_url):
